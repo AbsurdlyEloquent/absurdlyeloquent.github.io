@@ -10334,11 +10334,11 @@ form .row:first-child .floating-label-form-group {
   margin-top: 100px;
 }
 
-.row a img {
+.row a {
   margin: 5px 20px 5px 20px;
   transition: transform .2s ease;
   transform: scale(.8);
 }
-.row a img:hover {
+.row a:hover {
   transform: scale(1);
 }
