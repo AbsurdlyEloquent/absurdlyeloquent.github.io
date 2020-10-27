@@ -599,6 +599,7 @@ pre code {
 .row {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
   margin-right: -1.5rem;
   margin-left: -1.5rem;
 }
@@ -2000,7 +2001,7 @@ pre code {
   font-weight: 400;
   line-height: 1.5;
   color: #495057;
-  background-color: #fff;
+  background-color: #000000;
   background-clip: padding-box;
   border: 0.125rem solid #ced4da;
   border-radius: 0.5rem;
@@ -2020,8 +2021,7 @@ pre code {
   text-shadow: 0 0 0 #495057;
 }
 .form-control:focus {
-  color: #495057;
-  background-color: #fff;
+  color: var(--white);
   border-color: #6bebd1;
   outline: 0;
   box-shadow: 0 0 0 0.2rem rgba(26, 188, 156, 0.25);
@@ -2049,6 +2049,10 @@ pre code {
 .form-control:disabled, .form-control[readonly] {
   background-color: #e9ecef;
   opacity: 1;
+}
+
+#contact {
+  padding-bottom: 0;
 }
 
 input[type=date].form-control,
@@ -10058,6 +10062,7 @@ h3 {
   font-size: 1.25rem;
   justify-content: center;
   align-items: center;
+  margin-bottom: 25px;
 }
 
 .scroll-to-top {
@@ -10133,6 +10138,7 @@ h3 {
   }
 }
 .masthead {
+  height: 100vh;
   padding-top: calc(6rem + 74px);
   padding-bottom: 6rem;
 }
@@ -10200,7 +10206,7 @@ h3 {
   top: 1rem;
   font-size: 3rem;
   line-height: 3rem;
-  color: #1abc9c;
+  color: var(--accent);
   opacity: 1;
 }
 
@@ -10214,16 +10220,16 @@ h3 {
   position: relative;
   z-index: 1;
   padding-right: 0;
-  padding-left: 0;
   resize: none;
   border: none;
-  border-radius: 0;
+  border-radius: 10px;
   background: none;
   box-shadow: none !important;
+  background-color: #000000;
 }
 .floating-label-form-group label {
   font-size: 0.85em;
-  line-height: 1.764705882em;
+  line-he/icon/108784/javascriptight: 1.764705882em;
   position: relative;
   z-index: 0;
   top: 2em;
@@ -10243,7 +10249,7 @@ h3 {
 }
 
 .floating-label-form-group-with-focus label {
-  color: #1abc9c;
+  color: var(--accent);
 }
 
 form .row:first-child .floating-label-form-group {
@@ -10255,6 +10261,7 @@ form .row:first-child .floating-label-form-group {
   padding-bottom: 5rem;
   background-color: var(--primary);
   color: #fff;
+  height: 20rem;
 }
 
 .copyright {
@@ -10321,3 +10328,15 @@ form .row:first-child .floating-label-form-group {
   }
 }
 /* animation from here: https://code.sololearn.com/Wj4LDbPcKmIL/#html */
+
+#credit {
+  margin-top: 100px;
+}
+
+.row a img {
+  margin: 5px 20px 5px 20px;
+  transition: transform .2s ease;
+}
+.row a img:hover {
+  transform: scale(1.25);
+}

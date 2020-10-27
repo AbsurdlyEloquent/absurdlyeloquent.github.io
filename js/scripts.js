@@ -69,6 +69,7 @@
 
 // Favicon generator
 import emojiJSON from '../assets/emoji.js'
+let header = document.querySelector('.js-scroll-trigger')
 
 function faviconTemplate(icon) {
   return `
@@ -84,6 +85,7 @@ function favicon() {
   let link = document.querySelector('#favicon')
   let emoji = emojiJSON[Math.floor(Math.random()*117)]
   let newFavicon = faviconTemplate(emoji.character)
+  header.innerText = emoji.character;
   link.setAttribute('href', `data:image/svg+xml,${newFavicon}`)
 }
 favicon()
