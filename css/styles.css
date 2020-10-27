@@ -7635,7 +7635,8 @@ button.bg-dark:focus {
 
 .mb-5,
 .my-5 {
-  margin-bottom: 3rem !important;
+  margin-bottom: 2rem !important;
+  font-size: 20px;
 }
 
 .ml-5,
@@ -10336,7 +10337,8 @@ form .row:first-child .floating-label-form-group {
 .row a img {
   margin: 5px 20px 5px 20px;
   transition: transform .2s ease;
+  transform: scale(.8);
 }
 .row a img:hover {
-  transform: scale(1.25);
+  transform: scale(1);
 }
