@@ -25,7 +25,7 @@
   --gray: #6c757d;
   --gray-dark: #343a40;
   --primary: #121416;
-  --secondary: #001A38;
+  --secondary: #010B19;
   --accent: #95538C;
   --accent-dark: #682860;
   --success: #28a745;
@@ -10253,7 +10253,7 @@ form .row:first-child .floating-label-form-group {
 .footer {
   padding-top: 5rem;
   padding-bottom: 5rem;
-  background-color: var(--secondary);
+  background-color: var(--primary);
   color: #fff;
 }
 
@@ -10312,26 +10312,6 @@ form .row:first-child .floating-label-form-group {
   box-shadow: 1948px 1304px #FFF , 255px 1453px #FFF , 146px 1809px #FFF , 1216px 205px #FFF , 1418px 1507px #FFF , 206px 1111px #FFF , 734px 1490px #FFF , 1985px 1787px #FFF , 188px 1154px #FFF , 1447px 113px #FFF , 1484px 1176px #FFF , 1495px 1763px #FFF , 1597px 453px #FFF , 1840px 1052px #FFF , 655px 1587px #FFF , 1171px 1430px #FFF , 1106px 410px #FFF , 97px 1054px #FFF , 714px 1158px #FFF , 1877px 1980px #FFF , 181px 105px #FFF , 1387px 1624px #FFF , 485px 1406px #FFF , 1770px 1868px #FFF , 1403px 770px #FFF , 204px 1690px #FFF , 300px 406px #FFF , 103px 364px #FFF , 1376px 774px #FFF , 1885px 753px #FFF , 162px 822px #FFF , 1944px 1848px #FFF , 500px 269px #FFF , 317px 1205px #FFF , 49px 905px #FFF , 1897px 1698px #FFF , 1937px 84px #FFF , 1831px 1273px #FFF , 1244px 1355px #FFF , 731px 737px #FFF , 1536px 802px #FFF , 628px 394px #FFF , 1582px 1266px #FFF , 1583px 668px #FFF , 1548px 1611px #FFF , 303px 945px #FFF , 1749px 980px #FFF , 909px 732px #FFF , 645px 808px #FFF , 56px 1087px #FFF , 1320px 1359px #FFF , 1053px 473px #FFF , 1783px 834px #FFF , 137px 1176px #FFF , 786px 1701px #FFF , 656px 906px #FFF , 620px 793px #FFF , 1471px 423px #FFF , 1046px 108px #FFF , 1849px 1270px #FFF , 1152px 1323px #FFF , 323px 623px #FFF , 304px 1154px #FFF , 678px 1427px #FFF , 734px 955px #FFF , 1717px 674px #FFF , 1974px 1431px #FFF , 859px 1871px #FFF , 822px 1386px #FFF , 1961px 1081px #FFF , 750px 1690px #FFF , 1387px 547px #FFF , 776px 907px #FFF , 435px 1934px #FFF , 542px 321px #FFF , 320px 754px #FFF , 622px 1759px #FFF , 1758px 597px #FFF , 742px 469px #FFF , 638px 1795px #FFF , 1578px 1755px #FFF , 1881px 1923px #FFF , 148px 1001px #FFF , 1333px 1015px #FFF , 663px 453px #FFF , 166px 730px #FFF , 319px 1423px #FFF , 1571px 1401px #FFF , 1538px 1363px #FFF , 851px 15px #FFF , 1884px 590px #FFF , 1016px 778px #FFF , 1993px 1060px #FFF , 40px 444px #FFF , 667px 639px #FFF , 1299px 1074px #FFF , 547px 923px #FFF , 93px 1476px #FFF , 1411px 1712px #FFF , 535px 1825px #FFF;
 }
 
-#title {
-  position: absolute;
-  top: 50%;
-  left: 0;
-  right: 0;
-  color: #FFF;
-  text-align: center;
-  font-family: "lato", sans-serif;
-  font-weight: 300;
-  font-size: 50px;
-  letter-spacing: 10px;
-  margin-top: -60px;
-  padding-left: 10px;
-}
-#title span {
-  background: -webkit-linear-gradient(white, #38495a);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-
 @keyframes animStar {
   from {
     transform: translateY(0px);
@@ -10340,3 +10320,4 @@ form .row:first-child .floating-label-form-group {
     transform: translateY(-2000px);
   }
 }
+/* animation from here: https://code.sololearn.com/Wj4LDbPcKmIL/#html */
