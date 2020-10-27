@@ -10006,6 +10006,7 @@ h3 {
 }
 .page-section {
   padding: 6rem 0;
+  box-shadow: 0px 5px 10px rgba(18,20,22,1), 0 -5px 10px rgba(18,20,22,1);
 }
 .page-section .page-section-heading {
   font-size: 2.25rem;
@@ -10142,6 +10143,7 @@ h3 {
   height: 100vh;
   padding-top: calc(6rem + 74px);
   padding-bottom: 6rem;
+  box-shadow: 0 5px 10px rgba(18,20,22,1);
 }
 .masthead .masthead-heading {
   font-size: 2.75rem;
